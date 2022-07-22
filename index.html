@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos</title>
+  </head>
+  <body>
+    <h1>My todos</h1>
+    <label for="search-todos">Search for todos</label>
+    <input
+      type="text"
+      name="search-todos"
+      placeholder="start typing the text"
+      id="search-todos-input"
+    />
+    <div id="summ"></div>
+    <div id="todos"></div>
+    <input type="checkbox" id="hide-completed" name="checkboxHide" />
+    <label for="checkboxHide">Hide completed todos</label>
+    <form action="" id="add-todo">
+      <input type="text" placeholder="Type in new todo" name="addTodoInput" />
+      <button id="add-btn">Submit</button>
+    </form>
+
+    <script src="todo-app.js"></script>
+  </body>
+</html>
